@@ -19,5 +19,5 @@ This repository contains all guides, setup instructions, and reference materials
 
 ## Quick Links
 
-- [Live Documentation (GitHub Pages)](https://<dein-benutzername>.github.io/<repository>/)
+- [Live Documentation (GitHub Pages)]https://xpeanutszzz.github.io/xyrix-service-dashboard-docs/
 - [Support & Contact](docs/06_faq.md#where-can-i-get-support)
