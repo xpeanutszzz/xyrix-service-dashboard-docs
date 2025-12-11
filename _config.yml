@@ -3,11 +3,9 @@ description: "Official documentation for the Xyrix Service Dashboard."
 
 theme: jekyll-theme-merlot
 
-# Ensure GitHub Pages includes the docs folder
 include:
   - docs
 
-# Clean URLs (no .html)
 permalink: pretty
 
 # Navigation with Emojis
@@ -31,4 +29,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-google_analytics: ""
+# Pink/Black Accent Colors
+sass:
+  style: compressed
+
+# Custom styles
