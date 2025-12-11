@@ -8,7 +8,6 @@ include:
 
 permalink: pretty
 
-# Navigation with Emojis
 navbar:
   - name: "🏠 Home"
     link: "/"
@@ -29,8 +28,4 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Pink/Black Accent Colors
-sass:
-  style: compressed
-
-# Custom styles
+google_analytics: ""
