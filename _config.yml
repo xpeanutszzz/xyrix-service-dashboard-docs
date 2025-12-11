@@ -1,14 +1,38 @@
-title: Xyrix Service Dashboard
-description: Official documentation for Xyrix Service Dashboard
-theme: merlot
-markdown: kramdown
+title: "Xyrix Service Dashboard Documentation"
+description: "Official documentation for the Xyrix Service Dashboard — including setup, configuration, features, API reference, and FAQ."
+theme: jekyll-theme-merlot
 
-# Navigation (Sidebar)
-nav:
-  - Home: index.md
-  - Introduction: docs/01_introduction.md
-  - Getting Started: docs/02_getting_started.md
-  - Configuration: docs/03_configuration.md
-  - Features: docs/04_features.md
-  - API Reference: docs/05_api_reference.md
-  - FAQ: docs/06_faq.md
+# Aktiviert die Navigation auf der linken Seite
+show_downloads: false
+
+# Docs-Ordner konfigurieren
+include:
+  - docs
+
+# Permalinks für saubere URLs
+permalink: pretty
+
+# Navigation / Sidebar
+navbar:
+  - name: "Home"
+    link: "/"
+  - name: "Introduction"
+    link: "/docs/01_introduction.html"
+  - name: "Getting Started"
+    link: "/docs/02_getting_started.html"
+  - name: "Configuration"
+    link: "/docs/03_configuration.html"
+  - name: "Features"
+    link: "/docs/04_features.html"
+  - name: "API Reference"
+    link: "/docs/05_api_reference.html"
+  - name: "FAQ"
+    link: "/docs/06_faq.html"
+
+# GitHub Pages settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Optional: Google Analytics deaktiviert
+google_analytics: ""
