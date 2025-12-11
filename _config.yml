@@ -1,0 +1,14 @@
+title: Xyrix Service Dashboard
+description: Official documentation for Xyrix Service Dashboard
+theme: merlot
+markdown: kramdown
+
+# Navigation (Sidebar)
+nav:
+  - Home: index.md
+  - Introduction: docs/01_introduction.md
+  - Getting Started: docs/02_getting_started.md
+  - Configuration: docs/03_configuration.md
+  - Features: docs/04_features.md
+  - API Reference: docs/05_api_reference.md
+  - FAQ: docs/06_faq.md
