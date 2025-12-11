@@ -31,5 +31,3 @@ This repository contains **all guides, setup instructions, configuration details
 - For developers: Clone the repository and edit the Markdown files to keep the docs up-to-date.  
 
 ---
-
-> 🚀 **Pro Tip:** Add new chapters by creating a `docs/0X_new_chapter.md` file and updating `index.md` for navigation.
