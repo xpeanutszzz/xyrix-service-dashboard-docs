@@ -1,38 +1,34 @@
-title: "Xyrix Service Dashboard Documentation"
-description: "Official documentation for the Xyrix Service Dashboard — including setup, configuration, features, API reference, and FAQ."
+title: "Xyrix Service Dashboard Documentation 🖥️✨"
+description: "Official documentation for the Xyrix Service Dashboard."
+
 theme: jekyll-theme-merlot
 
-# Aktiviert die Navigation auf der linken Seite
-show_downloads: false
-
-# Docs-Ordner konfigurieren
+# Ensure GitHub Pages includes the docs folder
 include:
   - docs
 
-# Permalinks für saubere URLs
+# Clean URLs (no .html)
 permalink: pretty
 
-# Navigation / Sidebar
+# Navigation with Emojis
 navbar:
-  - name: "Home"
+  - name: "🏠 Home"
     link: "/"
-  - name: "Introduction"
+  - name: "📝 Introduction"
     link: "/docs/01_introduction.html"
-  - name: "Getting Started"
+  - name: "🚀 Getting Started"
     link: "/docs/02_getting_started.html"
-  - name: "Configuration"
+  - name: "⚙️ Configuration"
     link: "/docs/03_configuration.html"
-  - name: "Features"
+  - name: "🌟 Features"
     link: "/docs/04_features.html"
-  - name: "API Reference"
+  - name: "🔌 API Reference"
     link: "/docs/05_api_reference.html"
-  - name: "FAQ"
+  - name: "❓ FAQ"
     link: "/docs/06_faq.html"
 
-# GitHub Pages settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Optional: Google Analytics deaktiviert
 google_analytics: ""
